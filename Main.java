@@ -10,7 +10,7 @@ public class CalculadoraEdades {
         int sumaMayores=0;
         int cantidadMayores=0;
         for(int edad:edades){
-            if (17<edad){
+            if (15<edad){
                 sumaMayores=edad+sumaMayores;
                 cantidadMayores++;
             }
@@ -22,7 +22,7 @@ public class CalculadoraEdades {
         int sumaMenores=0;
         int cantidadMenores=0;
         for(int edad:edades){
-            if (edad<17){
+            if (edad<15){
                 sumaMenores=edad+sumaMenores;
                 cantidadMenores++;
             }
